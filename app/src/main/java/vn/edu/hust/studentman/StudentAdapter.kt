@@ -35,7 +35,6 @@ class StudentAdapter(
     holder.textStudentName.text = student.studentName
     holder.textStudentId.text = student.studentId
 
-    // Thêm xử lý sự kiện cho nút edit và delete
     holder.imageEdit.setOnClickListener {
       onItemClick(student, position, "edit")
     }
